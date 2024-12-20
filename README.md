@@ -1,2 +1,2 @@
 # assignment
-講義
+講義用
