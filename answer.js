@@ -1,3 +1,6 @@
+const text_data = await fetch("./data.txt");
+const text = await text_data.text();
+
 const change = (str) => {
   const first_line = str[0];
   const second_line = str[1];
@@ -17,3 +20,5 @@ const change = (str) => {
 }
 
 console.log(change(arr));
+
+export default text;
